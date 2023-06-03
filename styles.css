@@ -83,13 +83,14 @@ Works section for the Portfolio begins here
 */
 
 .works-wrapper {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   margin-left: 24px;
   margin-right: 24px;
 }
 
-.card1-container {
+.card-container {
   margin-top: 114px;
   padding: 16px;
   border: 1px solid #dfe1e6;
@@ -98,7 +99,7 @@ Works section for the Portfolio begins here
   height: 552px;
 }
 
-.card2-container {
+/* .card2-container {
   margin-top: 88px;
   padding: 16px;
   border: 1px solid #dfe1e6;
@@ -120,7 +121,7 @@ Works section for the Portfolio begins here
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   background: #fff;
-}
+} */
 
 .image-holder {
   width: 100%;
@@ -265,22 +266,6 @@ Works section for the Portfolio begins here
   color: #396df2;
 }
 
-.language-menu {
-  display: flex;
-  justify-content: space-between;
-}
-
-.language-menu img {
-  padding-top: 30px;
-  margin-right: 64px;
-}
-
-.language-txt {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-}
-
 a {
   text-decoration: none;
 }
@@ -289,6 +274,20 @@ a {
   display: flex;
   flex-direction: column;
   width: 303px;
+}
+
+.language-list .languages {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.language-list .languages img {
+  margin-right: 60px;
+  padding-top: 30px;
 }
 
 .language-list p {

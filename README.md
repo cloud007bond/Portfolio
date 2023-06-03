@@ -5,15 +5,21 @@
 
 - [📖 About the Project](#about-project)
   - [🛠️ Built With](#built-with)
+    - [Tech Stack](#)
+    - [Key Features](#)
+  - [🚀 Live Demo](#)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#)
   - [Run tests](#run-tests)
+  - [Deployment](#)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -110,9 +116,9 @@ You can deploy this project using:
 
 👤 **Author1**
 
-- GitHub: [@pushkar1995](https://github.com/cloud007bond)
-- Twitter: [@Pushkar9951](https://twitter.com/ezinwacharles)
-- LinkedIn: [pushkargautam](https://www.linkedin.com/in/ichbindeutschen/)
+- GitHub: [@cloud007bond](https://github.com/cloud007bond)
+- Twitter: [@ezinwacharles](https://twitter.com/ezinwacharles)
+- LinkedIn: [ezinwacharles](https://www.linkedin.com/in/ichbindeutschen/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
