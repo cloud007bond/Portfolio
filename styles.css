@@ -347,6 +347,10 @@ button:hover {
   color: #fff;
 }
 
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
 /*
 ---------------------------------
 Contact form section begins here
@@ -360,8 +364,9 @@ Contact form section begins here
   z-index: 1;
   margin-top: -100px;
   border-radius: 100px 0 0 0;
-  background-image: url('./images/bg-contact-mobile.svg');
+  background-image: url('./images/contact-mob-bg.png');
   background-repeat: no-repeat;
+  background-size: cover;
   background-position-x: 153px;
 }
 
