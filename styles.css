@@ -360,15 +360,14 @@ Contact form section begins here
 
 .contact-wrapper {
   width: 100%;
-  height: 779px;
   background: #6070ff;
   z-index: 1;
   margin-top: -100px;
   border-radius: 100px 0 0 0;
   background-image: url('./images/contact-mob-bg.png');
   background-repeat: no-repeat;
-  background-size: 230px 710px;
-  background-position-x: 153px;
+  background-size: contain;
+  background-position-x: 100%;
 }
 
 .contact-section {
@@ -390,11 +389,13 @@ Contact form section begins here
 }
 
 .contact-desc {
+  font-family: 'Poppins', serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #ebebff;
   text-align: center;
+  color: #EBEBFF;
 }
 
 .form-items {
