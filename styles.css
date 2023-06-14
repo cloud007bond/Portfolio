@@ -367,13 +367,16 @@ Contact form section begins here
   border-radius: 100px 0 0 0;
   background-image: url('./images/contact-mob-bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 230px 710px;
   background-position-x: 153px;
 }
 
 .contact-section {
   padding-left: 24px;
   padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-title {
@@ -391,6 +394,7 @@ Contact form section begins here
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
+  text-align: center;
 }
 
 .form-items {
@@ -404,6 +408,7 @@ input {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+  margin-left: 24px;
 }
 
 .form-items input {
@@ -420,6 +425,7 @@ textarea {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
+  margin-left: 24px;
 }
 
 .form-items textarea {
@@ -442,11 +448,7 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   color: #6070ff;
+  margin-left: 24px;
 }
 
-.end-line {
-  width: 134px;
-  height: 5px;
-  margin-top: 25px;
-  background: #0d151e;
-}
+
