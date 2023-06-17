@@ -748,6 +748,10 @@ Media query for desktop version at 768px
   .form-items {
     max-width: 250px;
   }
+  .animation{
+    position: relative;
+    animation-direction: alternate;
+  }
 
   .form-input,
   .form-textarea {
