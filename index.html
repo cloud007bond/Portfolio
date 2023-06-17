@@ -10,144 +10,345 @@
 
 <body>
    <header class="toolbar">
-      <a href="#">
-         <img src="./images/my-logo.svg" alt="my logo" class="my-logo">
-      </a>
+      <div class="logo">
+         <h3>My Logo</h3>
+      </div>
+
       <nav>
+         <ul class="nav">
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+         </ul>
          <a href="#">
             <img src="./images/hamburger.svg" alt="hamburger menu" class="hamburger-img" id="hamburger">
          </a>
       </nav>
    </header>
    <section class="main">
-      <div>
-         <h1 class="headline">I'm Ezinwa charles <br>Glad to see you!</h1>
+      <div class="intro">
+         <h1 class="headline">I'm Ezinwa Charles <br>Glad to see you!</br></h1>
          <p class="desc">
             I’m a software developer! I can help you build a product , feature or website Look through some of my work
             and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
          </p>
-         <p class="connect-msg">LET'S CONNECT</p>
+
+         <div class="connect">
+            <p class="connect-msg">LET'S CONNECT</p>
+            <ul class="social-icons">
+               <li><a href="https://twitter.com/ezinwacharles?t=szrnkroJTcBoT-GxDzBZOg&s=09">
+                     <img src="./images/twitter.svg" alt="twitter handle">
+                  </a></li>
+               <li><a href="https://www.linkedin.com/in/ezinwa-charles-4401aa28/">
+                     <img src="./images/linkedin.svg" alt="linkedin handle">
+                  </a></li>
+               <li><a href="https://web.facebook.com/ezinwa.charles">
+                     <img src="./images/media.svg" alt="another social handle">
+                  </a></li>
+               <li><a href="https://github.com/cloud007bond">
+                     <img src="./images/github.svg" alt="github handle">
+                  </a></li>
+               <li> <a href="https://www.instagram.com/ichbindeutschen/">
+                     <img src="./images/social.svg" alt="social handle">
+                  </a></li>
+            </ul>
+         </div>
       </div>
-      <ul class="social-icons">
-         <li><a href="https://twitter.com/ezinwacharles?t=szrnkroJTcBoT-GxDzBZOg&s=09">
-               <img src="./images/twitter.svg" alt="twitter handle">
-            </a></li>
-         <li><a href="https://www.linkedin.com/in/ezinwa-charles-4401aa28/">
-               <img src="./images/linkedin.svg" alt="linkedin handle">
-            </a></li>
-         <li><a href="https://web.facebook.com/ezinwa.charles">
-               <img src="./images/media.svg" alt="another social handle">
-            </a></li>
-         <li><a href="https://github.com/cloud007bond">
-               <img src="./images/github.svg" alt="github handle">
-            </a></li>
-         <li> <a href="https://www.instagram.com/ichbindeutschen/">
-               <img src="./images/social.svg" alt="social handle">
-            </a></li>
-      </ul>
+
    </section>
 
-   <!-- Here begins the works section -->
-   <section class="works-wrapper">
-      <div class="card-container">
-         <div class="image-holder">
-            <img src="./images/tonic-snapshoot-mobile1.svg" alt="tonic mobile snapshoot" class="">
-         </div>
-         <!-- Converted this to a h3 -->
-         <h3 class="project-title">Tonic</h3>
-         <div class="project-desc">
-            <p class="client">CANOPY</p>
-            <img src="./images/counter.svg" alt="counter">
-            <p class="role">Back End Dev</p>
-            <img src="./images/counter.svg" alt="another counter">
-            <p class="year">2015</p>
-         </div>
-         <p class="read-msg">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-         <ul class="tech-tags">
-            <li><button class="html-btn">html</button></li>
-            <li><button class="css-btn">css</button></li>
-            <li><button class="javascript-btn">javascript</button></li>
-         </ul>
-         <button class="see-project-btn">See Project</button>
+ <section class="project-cards">
+   <div class="project-card">
+      <div class="project-image">
+         <img src="images/nature - Copy.svg" alt="">
       </div>
-      <!-- second project begins here -->
-      <div class="card-container">
-         <div class="image-holder">
-            <img src="./images/snapshot-mobile2.svg" alt="multi-stories mobile snapshoot" class="">
-         </div>
-         <!-- Converted this to a h3 here too to stay consistent, it was previously h2 -->
-         <h3 class="project-title">Multi-Post <br> Stories</h3>
-         <div class="project-desc">
-            <p class="client">CANOPY</p>
-            <img src="./images/counter.svg" alt="counter ">
-            <p class="role">Back End Dev</p>
-            <img src="./images/counter.svg" alt="another counter">
-            <p class="year">2015</p>
-         </div>
-         <p class="read-msg">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-         <ul class="tech-tags">
-            <!-- Removed the button tags here -->
-            <li class="html-btn">html</li>
-            <li class="css-btn">css</li>
-            <li class="javascript-btn">javascript</li>
+      <div class="project-details">
+         <h3>Tonic</h3>
+         <ul>
+            <li>
+               CANOPY
+            </li>
+            <li>
+               <img src="images/dot.svg" alt="">
+            </li>
+            <li>
+               Back End Dev 
+            </li>
+         <li>
+            <img src="images/dot.svg" alt="">
+         </li>
+         <li>
+            2015
+         </li>
          </ul>
-         <button class="see-project-btn">See Project</button>
-      </div>
-      <!-- Third project card begins here -->
-      <div class="card-container">
-         <div class="image-holder">
-            <img src="./images/snapshot-mobile3.svg" alt="tonic mobile snapshoot" class="">
-         </div>
-         <!-- Converted this to a h3 -->
-         <h3 class="project-title">Tonic</h3>
-         <div class="project-desc">
-            <p class="client">CANOPY</p>
-            <img src="./images/counter.svg" alt="counter ">
-            <p class="role">Back End Dev</p>
-            <img src="./images/counter.svg" alt="another counter">
-            <p class="year">2015</p>
-         </div>
-         <p class="read-msg">A daily selection of privately personalized reads; no accounts or sign-ups required.
+         <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
          </p>
-         <ul class="tech-tags">
-            <!-- Removed the button tags here -->
-            <li class="html-btn">html</li>
-            <li class="css-btn">css</li>
-            <li class="javascript-btn">javascript</li>
+         <ul>
+            <li>
+               html
+            </li>
+            <li>
+               css
+            </li>
+            <li>
+               javascript
+            </li>
+            
+
          </ul>
-         <button class="see-project-btn">See Project</button>
+         <button>
+            See project
+         </button>
       </div>
-      <!-- Fourth Project Card begins here -->
+   </div>
+   <div class="project-card">
+      <div class="project-image">
+         <img src="images/professional.svg" alt="">
+      </div>
+      <div class="project-details">
+         <h3>Multi-Post Stories</h3>
+         <ul>
+            <li>
+               FACEBOOK
+            </li>
+            <li>
+               <img src="images/dot.svg" alt="">
+            </li>
+            <li>
+               Full Stack Dev
+            </li>
+         <li>
+            <img src="images/dot.svg" alt="">
+         </li>
+         <li>
+            2015
+         </li>
+         </ul>
+         <p>
+            Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+         </p>
+         <ul>
+            <li>
+               html
+            </li>
+            <li>
+               Ruby on rails
+            </li>
+            <li>
+               css
+            </li>
+            <li>
+               javascript
+            </li>
+            
+
+         </ul>
+         <button>
+            See project
+         </button>
+      </div>
+   </div>
+   <div class="project-card">
+      <div class="project-image">
+         <img src="images/Facebook.svg" alt="">
+      </div>
+      <div class="project-details">
+         <h3>Facebook 360</h3>
+         <ul>
+            <li>
+               FACEBOOK
+            </li>
+            <li>
+               <img src="images/dot.svg" alt="">
+            </li>
+            <li>
+               Full Stack Dev
+            </li>
+         <li>
+            <img src="images/dot.svg" alt="">
+         </li>
+         <li>
+            2015
+         </li>
+         </ul>
+         <p>
+            Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+         </p>
+         <ul>
+            <li>
+               html
+            </li>
+            <li>
+               Ruby on rails
+            </li>
+            <li>
+               css
+            </li>
+            <li>
+               javascript
+            </li>
+            
+
+         </ul>
+         <button>
+            See project
+         </button>
+      </div>
+   </div>
+   <div class="project-card">
+      <div class="project-image">
+         <img src="images/Avaliable.svg" alt="">
+      </div>
+      <div class="project-details">
+         <h3>Uber Navigation</h3>
+         <ul>
+            <li>
+               Uber
+            </li>
+            <li>
+               <img src="images/dot.svg" alt="">
+            </li>
+            <li>
+               Lead developer
+            </li>
+         <li>
+            <img src="images/dot.svg" alt="">
+         </li>
+         <li>
+            2018
+         </li>
+         </ul>
+         <p>
+            A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+         </p>
+         <ul>
+            <li>
+               html
+            </li>
+            <li>
+               Ruby on rails
+            </li>
+            <li>
+               css
+            </li>
+            <li>
+               javascript
+            </li>
+            
+
+         </ul>
+         <button>
+            See project
+         </button>
+      </div>
+   </div>
+ </section>  
+  <!-- <sec tion class="works-wrapper">
+      
       <div class="card-container">
          <div class="image-holder">
-            <img src="./images/snapshot-mobile4.svg" alt="multi-stories mobile snapshoot" class="">
+            <img src="./images/nature - Copy.svg" alt="tonic mobile snapshoot" class="">
          </div>
-         <!-- Converted this to a h3 -->
-         <h3 class="project-title">Multi-Post <br>Stories</h3>
-         <div class="project-desc">
-            <p class="client">CANOPY</p>
-            <img src="./images/counter.svg" alt="counter ">
-            <p class="role">Back End Dev</p>
-            <img src="./images/counter.svg" alt="another counter ">
-            <p class="year">2015</p>
+      
+         <div class="card">
+            <h3 class="project-title">Tonic</h3>
+            <ul class="project-desc">
+               <li class="project-desc-title">CANOPY</li>
+               <li><img src="./images/counter.svg" alt="counter"></li>
+               <li>Back End Dev</li>
+               <li><img src="./images/counter.svg" alt="counter"></li>
+               <li>2015</li>
+            </ul>
+            <p class="read-msg">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <ul class="tech-tags">
+               <li><button class="html-btn">html</button></li>
+               <li><button class="css-btn">css</button></li>
+               <li><button class="javascript-btn">javascript</button></li>
+            </ul>
+            <button class="see-project-btn">See Project</button>
          </div>
-         <p class="read-msg">A daily selection of privately personalized reads; no accounts or sign-ups required.
-         </p>
-         <ul class="tech-tags">
-            <!-- Removed the button tags here -->
-            <li class="html-btn">html</li>
-            <li class="css-btn">css</li>
-            <li class="javascript-btn">javascript</li>
-         </ul>
-         <button class="see-project-btn">See Project</button>
       </div>
-   </section>
+      
+      <div class="card-container">
+         <div class="card">
+            <h3 class="project-title">Tonic</h3>
+            <div class="project-desc">
+               <p class="client">CANOPY</p>
+               <img src="./images/counter.svg" alt="counter">
+               <p class="role">Back End Dev</p>
+               <img src="./images/counter.svg" alt="another counter">
+               <p class="year">2015</p>
+            </div>
+            <p class="read-msg">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <ul class="tech-tags">
+               <li><button class="html-btn">html</button></li>
+               <li><button class="css-btn">css</button></li>
+               <li><button class="javascript-btn">javascript</button></li>
+            </ul>
+            <button class="see-project-btn">See Project</button>
+         </div>
+         <div class="image-holder">
+            <img src="./images/professional.svg" alt="tonic mobile snapshoot" class="">
+         </div>
+      </div>
+     
+      
+      <div class="card-container">
+         <div class="image-holder">
+            <img src="./images/Facebook.svg" alt="tonic mobile snapshoot" class="">
+         </div>
+         <div class="card">
+            <h3 class="project-title">Tonic</h3>
+            <div class="project-desc">
+               <p class="client">CANOPY</p>
+               <img src="./images/counter.svg" alt="counter">
+               <p class="role">Back End Dev</p>
+               <img src="./images/counter.svg" alt="another counter">
+               <p class="year">2015</p>
+            </div>
+            <p class="read-msg">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <ul class="tech-tags">
+               <li><button class="html-btn">html</button></li>
+               <li><button class="css-btn">css</button></li>
+               <li><button class="javascript-btn">javascript</button></li>
+            </ul>
+            <button class="see-project-btn">See Project</button>
+         </div>
+
+      </div>
+      
+      <div class="card-container">
+         <div class="image-holder">
+            <img src="./images/Avaliable.svg" alt="tonic mobile snapshoot" class="">
+         </div>
+         <div class="card">
+            <h3 class="project-title">Tonic</h3>
+            <div class="project-desc">
+               <p class="client">CANOPY</p>
+               <img src="./images/counter.svg" alt="counter">
+               <p class="role">Back End Dev</p>
+               <img src="./images/counter.svg" alt="another counter">
+               <p class="year">2015</p>
+            </div>
+            <p class="read-msg">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <ul class="tech-tags">
+               <li><button class="html-btn">html</button></li>
+               <li><button class="css-btn">css</button></li>
+               <li><button class="javascript-btn">javascript</button></li>
+            </ul>
+            <button class="see-project-btn">See Project</button>
+         </div>
+
+      </div>
+   </section> -->
+
+
    <!-- About myself section begins here -->
-
    <section>
       <div class="about-container" id="about">
          <div class="about-section">
-            <h1 class="about-title">About <br>Myself</h1>
+            <h1 class="about-title">About Myself</h1>
             <p class="about-desc">
                Hello I’m a software developer! I can help you build a product , feature or website Look through some of
                my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
@@ -173,75 +374,68 @@
             </ul>
             <button class="resume-btn">Get my resume</button>
 
-
-            <div class="language-list">
-               <ul class="languages">
-                  <li>
-                     <p>Languages</p>
-                  </li>
-                  <li> <img src="./images/down-arrow.svg" alt="down menu"></li>
-               </ul>
-               <div class="javascript">
+         </div>
+         <div class="language-list">
+            <ul class="languages">
+               <li>
+                  <p>Languages</p>
+               </li>
+               <li> <img src="./images/down-arrow.svg" alt="down menu"></li>
+            </ul>
+            <div class="language">
+               <div class="language-card">
                   <a href="#">
                      <img src="./images/javascript-icon.svg" alt="javascript">
                   </a>
                   <p>JavaScript</p>
                </div>
-               <div class="html">
+               <div class="language-card">
                   <a href="#">
                      <img src="./images/html.svg" alt="html">
                   </a>
                   <p>HTML</p>
                </div>
-               <div class="css">
+               <div class="language-card">
                   <a href="#">
                      <img src="./images/css-icon.svg" alt="css">
                   </a>
                   <p>CSS</p>
                </div>
-               <ul class="frameworks">
-                  <li>
-                     <p>Frameworks</p>
-                  </li>
-                  <li> <img src="./images/next-arrow.svg" alt="next menu"></li>
-               </ul>
-               <ul class="skills">
-                  <li>
-                     <p>Skills</p>
-                  </li>
-                  <li><img src="./images/next-arrow.svg" alt="next menu skill"></li>
-               </ul>
             </div>
+            <ul class="frameworks">
+               <li>
+                  <p>Frameworks</p>
+               </li>
+               <li> <img src="./images/next-arrow.svg" alt="next menu"></li>
+            </ul>
+            <ul class="skills">
+               <li>
+                  <p>Skills</p>
+               </li>
+               <li><img src="./images/next-arrow.svg" alt="next menu skill"></li>
+            </ul>
          </div>
       </div>
    </section>
 
-<!--Here begins the Contact form-->
-<footer>
-   <div class="contact-wrapper" id="contact">
-      <div class="contact-section">
-         <h1 class="contact-title">Contact me</h1>
-         <p class="contact-desc">
-            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
-         </p>
-         <form action="https://formspree.io/f/xbjbldyw" method="post">
-            <div class="form-items">
-               <label for="name">
-                  <input type="text" id="name" name="name"placeholder="User name" maxlength="30" required>
-               </label>
-               <label for="mail">
-                  <input type="email" id="mail" name="email" placeholder="User email Address" required>
-               </label>
-               <textarea name="user_msg" id="message"name="message" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
-               <button type="submit" class="contact-btn">Get in Touch</button>
-            </div>
-         </form>
-      </div>
-
-      </div>
+   <!--Here begins the Contact form-->
+   <footer>
+      <div class="contact-wrapper" id="contact">
+         <div class="contact-section">
+            <h1 class="contact-title">Contact me</h1>
+            <p class="contact-desc">
+               <span>If you have an application you are interested in</span><span> developing, a feature that you need built or a project</span><span>that needs coding. I’d love to help with it.</span>
+            </p>
+            <form class="form-items" action="https://formspree.io/f/xbjbldyw" method="post">
+                     <input class="form-input" type="text" name="name"placeholder="User name" maxlength="30" required>
+                     <input class="form-input" type="email" name="email" placeholder="User email Address" required>
+                  <textarea class="form-textarea" name="user_msg" id="message"name="message" cols="30" rows="5" maxlength="500" placeholder="Write your message here" required></textarea>
+                  <button type="submit" class="contact-btn">Get in Touch</button>
+            </form>
+         </div>
    </footer>
 </body>
 
- 
+
 
 </html>
