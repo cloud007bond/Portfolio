@@ -41,10 +41,6 @@ body {
   border: 0;
 }
 
-body{
-  padding: 0;
-}
-
 .modal-1 div {
   display: flex;
   justify-content: right;
