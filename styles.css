@@ -560,7 +560,7 @@ Media query for desktop version at 768px
   .desktop-nav a {
     color: blue;
   }
-  
+
   .main {
     background-image: url('./images/bg-desktop-pg1.svg');
     background-repeat: no-repeat;
@@ -806,3 +806,4 @@ form {
     display: none;
   }
 }
+
