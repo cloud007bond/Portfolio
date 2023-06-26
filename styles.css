@@ -29,8 +29,10 @@ body {
 }
 
 .modal-1 {
+  margin-top: -10%;
+  width: calc(100% - 48px);
   height: 850px;
-  background-color: #3c3a39;
+  background-color: #6070ffe9;
   color: #fff5e1;
   font-size: 32px;
   font-weight: 700;
@@ -39,11 +41,14 @@ body {
   border: 0;
 }
 
+body{
+  padding: 0;
+}
+
 .modal-1 div {
   display: flex;
   justify-content: right;
   padding: 24px;
-  color: #6f6c6b;
   font-weight: 400;
 }
 
@@ -71,7 +76,6 @@ ul {
 
 .modal-1 ul li {
   padding: 8px 16px;
-  border-bottom: #6f6c6b solid 1px;
 }
 
 a {
