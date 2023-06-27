@@ -149,6 +149,10 @@ Works section for the Portfolio begins here
   height: 552px;
 }
 
+.project-image img {
+  width: 100%;
+}
+
 /* .card2-container {
   margin-top: 88px;
   padding: 16px;
