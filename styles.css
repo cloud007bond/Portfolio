@@ -28,6 +28,61 @@ body {
   padding-left: 24px;
 }
 
+.modal-1 {
+  margin-top: -10%;
+  width: calc(100% - 48px);
+  height: 850px;
+  background-color: #6070ffe9;
+  color: #fff5e1;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+}
+
+.modal-1 div {
+  display: flex;
+  justify-content: right;
+  padding: 24px;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.modal-1 ul {
+  list-style-type: none;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.project-desc > li {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.modal-1 ul li {
+  padding: 8px 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.modal-1 ul li a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
 .main {
   box-sizing: border-box;
   background: #fff;
@@ -71,11 +126,6 @@ body {
   width: 171px;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
 /*
 -------------------------------------------
 Works section for the Portfolio begins here
@@ -97,6 +147,10 @@ Works section for the Portfolio begins here
   border-radius: 16px;
   background: #fff;
   height: 552px;
+}
+
+.project-image img {
+  width: 100%;
 }
 
 /* .card2-container {
@@ -149,15 +203,6 @@ Works section for the Portfolio begins here
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-}
-
-.project-desc > li {
-  font-family: 'Poppins', serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
 }
 
 .project-desc-title {
@@ -281,10 +326,6 @@ Works section for the Portfolio begins here
   border-radius: 8px;
   background: #fff;
   color: #396df2;
-}
-
-a {
-  text-decoration: none;
 }
 
 .language-list {
@@ -513,11 +554,15 @@ Media query for desktop version at 768px
     color: #2230d2;
   }
 
-  .nav {
+  .desktop-nav {
     display: flex;
     align-items: flex-end;
     gap: 25px;
     height: 50px;
+  }
+
+  .desktop-nav a {
+    color: blue;
   }
 
   .main {
@@ -758,4 +803,10 @@ Media query for desktop version at 768px
 
 form {
   max-width: 447px;
+}
+
+@media (max-width: 767px) {
+  .desktop-nav {
+    display: none;
+  }
 }
