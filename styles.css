@@ -1,3 +1,4 @@
+
 body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -496,6 +497,31 @@ Contact form section begins here
   margin-bottom: 10px;
 }
 
+/*
+====================================================
+Popup begins here
+*/
+
+.container {
+  width: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 80%;
+  background: rgba(255, 255, 255, .5);
+}
+
 @media (min-width: 768px) {
   .form-items {
     width: 100%;
@@ -632,7 +658,7 @@ Media query for desktop version at 768px
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 142px;
-    gap: 142px;
+    gap: 30px;
   }
 
   .project-card {
