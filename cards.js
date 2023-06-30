@@ -1,49 +1,48 @@
-
 const portfolio = document.getElementById('portfolio');
 
 const projectData = [
-    {
-        name: 'Tonic',
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-        nation: ["CANOPY", "Back End Dev", 2015],
-        technologies: ["html", "css", "javascript"],
-        image: "images/nature - Copy.svg",
-        link_live: "",
-        link_source:"",
-        button_text: "See project"
-    },
-    {
-        name: "Multi-Post Stories",
-        description: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-        nation: ["FACEBOOK", "Full Stack Dev", 2015],
-        technologies: ["html", "Ruby on rails", "css", "javascript"],
-        image: "images/professional.svg",
-        link_live: "",
-        link_source:"",
-        button_text: "See project"
-    },
-    {
-      name: "Facebook 360",
-      description: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-      nation: ["FACEBOOK", "Full Stack Dev", 2015],
-      technologies: ["html", "Ruby on rails", "css", "javascript"],
-      image: "images/Facebook.svg",
-      link_live: '',
-      link_source:'',
-      button_text: "See project"
+  {
+    name: 'Tonic',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    nation: ['CANOPY', 'Back End Dev', 2015],
+    technologies: ['html', 'css', 'javascript'],
+    image: 'images/nature - Copy.svg',
+    link_live: '',
+    link_source: '',
+    button_text: 'See project',
   },
   {
-   name: "Uber Navigation",
-   description: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-   nation: ["Uber", "Lead developer", 2018],
-   technologies: ["html", "Ruby on rails", "css", "javascript"],
-   image: "images/Avaliable.svg",
-   link_live: '',
-   link_source:'',
-   button_text: "See project"
-}
-  
-]
+    name: 'Multi-Post Stories',
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    nation: ['FACEBOOK', 'Full Stack Dev', 2015],
+    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
+    image: 'images/professional.svg',
+    link_live: '',
+    link_source: '',
+    button_text: 'See project',
+  },
+  {
+    name: 'Facebook 360',
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    nation: ['FACEBOOK', 'Full Stack Dev', 2015],
+    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
+    image: 'images/Facebook.svg',
+    link_live: '',
+    link_source: '',
+    button_text: 'See project',
+  },
+  {
+    name: 'Uber Navigation',
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    nation: ['Uber', 'Lead developer', 2018],
+    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
+    image: 'images/Avaliable.svg',
+    link_live: '',
+    link_source: '',
+    button_text: 'See project',
+  },
+
+];
 
 const child = `<div class="project-card">
 <div class="project-image">
