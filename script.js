@@ -10,7 +10,7 @@ for (let i = 0; i < links.length; i += 1) {
 }
 
 btnHamburger.addEventListener('click', () => {
-  modalMenu.showModal();
+  modalMenu.show();
 });
 
 btnClose.addEventListener('click', () => {

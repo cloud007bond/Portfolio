@@ -9,7 +9,8 @@ const projectData = [
         technologies: ["html", "css", "javascript"],
         image: "images/nature - Copy.svg",
         link_live: "",
-        link_source:""
+        link_source:"",
+        button_text: "See project"
     },
     {
         name: "Multi-Post Stories",
@@ -18,7 +19,8 @@ const projectData = [
         technologies: ["html", "Ruby on rails", "css", "javascript"],
         image: "images/professional.svg",
         link_live: "",
-        link_source:""
+        link_source:"",
+        button_text: "See project"
     },
     {
       name: "Facebook 360",
@@ -27,8 +29,20 @@ const projectData = [
       technologies: ["html", "Ruby on rails", "css", "javascript"],
       image: "images/Facebook.svg",
       link_live: '',
-      link_source:''
-  }
+      link_source:'',
+      button_text: "See project"
+  },
+  {
+   name: "Uber Navigation",
+   description: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+   nation: ["Uber", "Lead developer", 2018],
+   technologies: ["html", "Ruby on rails", "css", "javascript"],
+   image: "images/Avaliable.svg",
+   link_live: '',
+   link_source:'',
+   button_text: "See project"
+}
+  
 ]
 
 const child = `<div class="project-card">
@@ -69,7 +83,7 @@ const child = `<div class="project-card">
       </li>
    </ul>
    <button class="see-project-btn">
-      See project
+   ${projectData[0].button_text}
    </button>
 </div>
 </div>
@@ -114,7 +128,7 @@ const child = `<div class="project-card">
       </li>
    </ul>
    <button class="see-project-btn">
-      See project
+      ${projectData[1].button_text}
    </button>
 </div>
 </div>
@@ -138,73 +152,73 @@ const child = `<div class="project-card">
       <img src="images/dot.svg" alt="">
    </li>
    <li>
-   ${projectData[2].nation[2]}
+      ${projectData[2].nation[2]}
    </li>
    </ul>
    <p>
-   ${projectData[2].description}
+      ${projectData[2].description}
    </p>
    <ul>
       <li>
-      ${projectData[2].technologies[0]}
+         ${projectData[2].technologies[0]}
       </li>
       <li>
-      ${projectData[2].technologies[1]}
+         ${projectData[2].technologies[1]}
       </li>
       <li>
-      ${projectData[2].technologies[2]}
+         ${projectData[2].technologies[2]}
       </li>
       <li>
-      ${projectData[2].technologies[3]}
+         ${projectData[2].technologies[3]}
       </li>
    </ul>
    <button>
-      See project
+      ${projectData[2].button_text}
    </button>
 </div>
 </div>
 <div class="project-card">
 <div class="project-image">
-   <img src="images/Avaliable.svg" alt="">
+   <img src="${projectData[3].image}" alt="">
 </div>
 <div class="project-details">
-   <h3>Uber Navigation</h3>
+   <h3>${projectData[3].name}</h3>
    <ul>
       <li>
-         Uber
+      ${projectData[3].nation[0]}
       </li>
       <li>
          <img src="images/dot.svg" alt="">
       </li>
       <li>
-         Lead developer
+      ${projectData[3].nation[1]}
       </li>
    <li>
       <img src="images/dot.svg" alt="">
    </li>
    <li>
-      2018
+   ${projectData[3].nation[2]}
    </li>
    </ul>
    <p>
-      A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+   ${projectData[3].description}
    </p>
    <ul>
       <li>
-         html
+      ${projectData[3].technologies[0]}
       </li>
       <li>
-         Ruby on rails
+      ${projectData[3].technologies[1]}
       </li>
       <li>
-         css
+      ${projectData[3].technologies[2]}
       </li>
       <li>
-         javascript
+      ${projectData[3].technologies[3]}
       </li>
    </ul>
    <button class="see-project-btn">
-      See project
+      ${projectData[3].button_text}
    </button>
 </div>
 </div>`;
