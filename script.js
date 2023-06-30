@@ -1,18 +1,18 @@
-const modal_menu = document.querySelector('.modal-1');
-const btn_hamburger = document.querySelector('.hamburger-img');
-const btn_close = document.querySelector('.close-1');
+const modalMenu = document.querySelector('.modal-1');
+const btnHamburger = document.querySelector('.hamburger-img');
+const btnClose = document.querySelector('.close-1');
 
 const links = document.querySelectorAll('.lnks a');
-for (const link of links) {
-  link.addEventListener('click', () => {
-    modal_menu.close();
+for (let i = 0; i < links.length; i += 1) {
+  links[i].addEventListener('click', () => {
+    modalMenu.close();
   });
 }
 
-btn_hamburger.addEventListener('click', () => {
-  modal_menu.show();
+btnHamburger.addEventListener('click', () => {
+  modalMenu.showModal();
 });
 
-btn_close.addEventListener('click', () => {
-  modal_menu.close();
+btnClose.addEventListener('click', () => {
+  modalMenu.close();
 });
