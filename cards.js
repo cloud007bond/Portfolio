@@ -133,7 +133,7 @@ const child = `<div class="project-card">
 </div>
 <div class="project-card">
 <div class="project-image">
-   <img src="${projectData[2].name}" alt="">
+   <img src="${projectData[2].image}" alt="">
 </div>
 <div class="project-details">
    <h3>${projectData[2].name}</h3>
