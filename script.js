@@ -16,3 +16,4 @@ btnHamburger.addEventListener('click', () => {
 btnClose.addEventListener('click', () => {
   modalMenu.close();
 });
+
