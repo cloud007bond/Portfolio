@@ -149,15 +149,13 @@ const popupWindow = projectData.map((project) => (
 ));
 
 const popup = document.querySelector('.mobile-project-modal');
-const closeBtn = document.querySelector('.close');
-
 popup.innerHTML = popupWindow;
 
 // Display Popup
 function closePopup() {
   popup.style.display = 'none';
 }
-
+document.getElementById('popup').addEventListener('click', closePopup);
 
 function displayPopup() {
   if (popup.style.display === 'none') {
