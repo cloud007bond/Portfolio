@@ -173,3 +173,6 @@ document.getElementById('0').onclick = displayPopup;
 document.getElementById('1').onclick = displayPopup;
 document.getElementById('2').onclick = displayPopup;
 document.getElementById('3').onclick = displayPopup;
+// btnClose.addEventListener('click', () => {
+//   modalMenu.close();
+// });

@@ -4,7 +4,12 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
    <link rel="stylesheet" href="./styles.css">
+=======
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="validation.css">
+>>>>>>> 447f05b40ed738584f550032087c8e648b7a718f
    <title>Portfolio</title>
 </head>
 
@@ -68,9 +73,11 @@
 
    </section>
 
+   <!-- Project section begins here -->
  <section class="project-cards" id="portfolio">
    
  </section>  
+
 
  <!-- popup window section begins here -->
  <section>
@@ -78,6 +85,7 @@
    </div>
  </section>
   
+
    <!-- About myself section begins here -->
    <section>
       <div class="about-container" id="about">
@@ -160,16 +168,25 @@
             <p class="contact-desc">
                <span>If you have an application you are interested in</span><span> developing, a feature that you need built or a project</span><span>that needs coding. I’d love to help with it.</span>
             </p>
-            <form class="form-items" action="https://formspree.io/f/xbjbldyw" method="post">
+            <form class="form-items" id = "frm" action="https://formspree.io/f/xbjbldyw" method="post">
                      <input class="form-input" type="text" name="name"placeholder="User name" maxlength="30" required>
-                     <input class="form-input" type="email" name="email" placeholder="User email Address" required>
+                     <input class="form-input" type="email" id = "email" name="email" placeholder="User email Address" required>
                   <textarea class="form-textarea" name="user_msg" id="message"name="message" cols="30" rows="5" maxlength="500" placeholder="Write your message here" required></textarea>
+                  <small class="error"></small>
                   <button type="submit" class="contact-btn">Get in Touch</button>
             </form>
          </div>
    </footer>
+<<<<<<< HEAD
 
    <script src="./script.js" type="text/javascript"></script>
+=======
+   
+   <script src="script.js"></script>
+
+   <script src="cards.js"></script>
+
+>>>>>>> 447f05b40ed738584f550032087c8e648b7a718f
 </body>
 
 
